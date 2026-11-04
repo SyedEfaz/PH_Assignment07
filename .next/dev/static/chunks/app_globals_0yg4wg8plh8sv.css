@@ -410,6 +410,11 @@ button:focus-visible, input:focus-visible {
   font-size: 21px;
 }
 
+.bazar-brand small {
+  letter-spacing: 0;
+  font-size: 8px;
+}
+
 .brand-mark {
   color: #fff;
   background: var(--green);
@@ -1252,6 +1257,64 @@ main {
   grid-column: 1 / -1;
   padding: 36px 0;
   font-size: 13px;
+}
+
+.skeleton-card {
+  overflow: hidden;
+}
+
+.skeleton-image, .skeleton-lines span {
+  background: #eef2ed;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton-image {
+  height: 119px;
+}
+
+.skeleton-lines {
+  gap: 9px;
+  padding: 13px 11px;
+  display: grid;
+}
+
+.skeleton-lines span {
+  border-radius: 4px;
+  height: 8px;
+}
+
+.skeleton-lines span:first-child {
+  width: 44%;
+}
+
+.skeleton-lines span:nth-child(2) {
+  width: 78%;
+  height: 11px;
+}
+
+.skeleton-lines span:last-child {
+  width: 60%;
+}
+
+.skeleton-image:after, .skeleton-lines span:after {
+  content: "";
+  background: linear-gradient(90deg, #0000, #ffffffb8, #0000);
+  animation: 1.4s infinite skeleton-shimmer;
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+}
+
+@keyframes skeleton-shimmer {
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.primary-button {
+  text-decoration: none;
 }
 
 .newsletter {

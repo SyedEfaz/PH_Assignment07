@@ -34,17 +34,17 @@ function RootLayout({ children }) {
                 children: children
             }, void 0, false, {
                 fileName: "[project]/app/layout.jsx",
-                lineNumber: 8,
+                lineNumber: 10,
                 columnNumber: 32
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/layout.jsx",
-            lineNumber: 8,
+            lineNumber: 10,
             columnNumber: 26
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.jsx",
-        lineNumber: 8,
+        lineNumber: 10,
         columnNumber: 10
     }, this);
 }
