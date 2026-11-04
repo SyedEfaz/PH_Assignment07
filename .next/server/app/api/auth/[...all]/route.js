@@ -1,0 +1,11 @@
+var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/auth/[...all]/route.js")
+R.c("server/chunks/[root-of-the-server]__14lj79pdmw3rs._.js")
+R.c("server/chunks/node_modules_1m4zrfiior2oj._.js")
+R.c("server/chunks/[root-of-the-server]__1e_wq6lvf5yja._.js")
+R.c("server/chunks/node_modules_1rby4krkot1mt._.js")
+R.c("server/chunks/[root-of-the-server]__1gwry0keom89e._.js")
+R.c("server/chunks/node_modules_@better-auth_0zj8hktur3rio._.js")
+R.c("server/chunks/node_modules_next_dist_182yaz9b1ql64._.js")
+R.c("server/chunks/_next-internal_server_app_api_auth_[___all]_route_actions_0avsr_3grsf9z.js")
+R.m(56821)
+module.exports=R.m(56821).exports

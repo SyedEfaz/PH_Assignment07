@@ -1,0 +1,3 @@
+module.exports=[11797,a=>{"use strict";var b=a.i(7997);a.s(["default",0,function(){return(0,b.jsxs)("main",{className:"loading-page","aria-live":"polite",children:[(0,b.jsx)("div",{className:"loading-mark",children:"🛒"}),(0,b.jsx)("p",{children:"বাজারদর লোড হচ্ছে..."}),(0,b.jsx)("div",{className:"loading-bar"})]})}])},16250,function(a){a.n(a.i(11797))}];
+
+//# sourceMappingURL=app_loading_jsx_1bdgrayytj5y5._.js.map

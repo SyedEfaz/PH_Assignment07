@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/auth/[...all]/route": "/api/auth/[...all]",
+  "/category/[slug]/page": "/category/[slug]",
+  "/category/page": "/category",
+  "/page": "/",
+  "/product/[slug]/page": "/product/[slug]",
+  "/profile/page": "/profile",
+  "/profile/update/page": "/profile/update",
+  "/signin/page": "/signin",
+  "/signup/page": "/signup"
+}

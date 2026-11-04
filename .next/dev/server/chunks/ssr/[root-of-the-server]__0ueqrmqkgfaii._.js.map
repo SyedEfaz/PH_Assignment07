@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///D:/Users/User/Documents/GitHub/PH_Assignment07/app/providers.jsx"],"sourcesContent":["'use client'\r\n\r\nimport { Toaster } from 'react-hot-toast'\r\n\r\nexport default function Providers({ children }) {\r\n  return <>\r\n    <div className=\"min-h-screen\">{children}</div>\r\n    <Toaster position=\"top-right\" toastOptions={{ duration: 3500 }} />\r\n  </>\r\n}\r\n"],"names":["Providers","children","className","position","toastOptions","duration"],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAASA,UAAU,EAAEC,QAAQ,EAAE;IAC5C,qBAAO;;0BACL,8OAAC;gBAAIC,WAAU;0BAAgBD;;;;;;0BAC/B,8OAAC,kKAAO;gBAACE,UAAS;gBAAYC,cAAc;oBAAEC,UAAU;gBAAK;;;;;;;;;;;;AAEjE"}}]
+}

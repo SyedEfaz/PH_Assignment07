@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/Users/User/Documents/GitHub/PH_Assignment07/app/loading.jsx"],"sourcesContent":["export default function Loading() {\r\n  return <main className=\"loading-page\" aria-live=\"polite\"><div className=\"loading-mark\">🛒</div><p>বাজারদর লোড হচ্ছে...</p><div className=\"loading-bar\" /></main>\r\n}\r\n"],"names":["Loading","className"],"mappings":";;;;;;AAAe,SAASA;IACtB,qBAAO,8OAAC;QAAKC,WAAU;QAAe,aAAU;;0BAAS,8OAAC;gBAAIA,WAAU;0BAAe;;;;;;0BAAQ,8OAAC;0BAAE;;;;;;0BAAwB,8OAAC;gBAAIA,WAAU;;;;;;;;;;;;AAC3I"}}]
+}
