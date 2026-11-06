@@ -7,7 +7,7 @@
 - Next.js App Router and React
 - Tailwind CSS 4 with responsive project styles
 - Better Auth for email/password and optional Google/GitHub sign-in
-- Drizzle ORM with libSQL/Turso
+- MongoDB for Better Auth user, session, and account data
 - Programming Hero Bazar Dor API
 
 ## Features
@@ -33,11 +33,11 @@ Set `BETTER_AUTH_SECRET` in `.env.local` to a random secret (at least 32 charact
 npm run dev
 ```
 
-The local database is created in `data/bazador.db`. The app creates its Better Auth tables on first use. Google and GitHub sign-in are enabled when their corresponding client ID and secret are configured.
+Set `MONGODB_URI` to your MongoDB connection string, including a database name such as `bazador`. For a local MongoDB server, use `mongodb://127.0.0.1:27017/bazador`; for MongoDB Atlas, use the connection string provided by your cluster. The app creates its Better Auth collections on first use. Google and GitHub sign-in are enabled when their corresponding client ID and secret are configured.
 
 ## Production setup
 
-Use a persistent libSQL/Turso database and configure `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `BETTER_AUTH_SECRET`, and `BETTER_AUTH_URL` in the deployment environment. Add OAuth provider credentials and the deployed callback URL when enabling Google or GitHub sign-in.
+Configure `MONGODB_URI`, `BETTER_AUTH_SECRET`, and `BETTER_AUTH_URL` in the deployment environment. Add OAuth provider credentials and the deployed callback URL when enabling Google or GitHub sign-in.
 
 ```bash
 npm run build

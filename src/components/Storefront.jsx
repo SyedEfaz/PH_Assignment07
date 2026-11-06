@@ -32,6 +32,10 @@ function getPriceChange(product) {
   return { arrow: '—', className: 'change-flat' }
 }
 
+function getSafeNextPath(path) {
+  return path.startsWith('/') && !path.startsWith('//') ? path : '/'
+}
+
 export default function Storefront({ page, categoryId = '', productId = '', nextPath = '/', redirectNotice = false }) {
   const router = useRouter()
   const route = { page, categoryId, id: productId }
@@ -48,7 +52,7 @@ export default function Storefront({ page, categoryId = '', productId = '', next
   const [storageLoaded, setStorageLoaded] = useState(false)
   const [notice, setNotice] = useState('')
   const [authLoading, setAuthLoading] = useState(false)
-  const { data: session, isPending: sessionPending } = authClient.useSession()
+  const { data: session } = authClient.useSession()
   const user = session?.user
 
   useEffect(() => {
@@ -145,6 +149,7 @@ export default function Storefront({ page, categoryId = '', productId = '', next
     const form = new FormData(event.currentTarget)
     const email = String(form.get('email') || '')
     const password = String(form.get('password') || '')
+    const redirectPath = getSafeNextPath(nextPath)
     try {
       if (route.page === 'signup') {
         const result = await authClient.signUp.email({
@@ -153,15 +158,13 @@ export default function Storefront({ page, categoryId = '', productId = '', next
           password,
         })
         if (result.error) throw new Error(result.error.message)
-        const signOutResult = await authClient.signOut()
-        if (signOutResult.error) throw new Error(signOutResult.error.message)
-        toast.success('অ্যাকাউন্ট তৈরি হয়েছে। এখন সাইন ইন করুন।')
-        router.push('/signin')
+        toast.success('অ্যাকাউন্ট তৈরি হয়েছে')
+        router.push(redirectPath)
       } else {
         const result = await authClient.signIn.email({ email, password })
         if (result.error) throw new Error(result.error.message)
         toast.success('সফলভাবে সাইন ইন হয়েছে')
-        router.push(nextPath.startsWith('/') && !nextPath.startsWith('//') ? nextPath : '/')
+        router.push(redirectPath)
       }
     } catch (error) {
       toast.error(error instanceof Error ? error.message : 'সাইন ইন করা যায়নি। আবার চেষ্টা করুন।')
@@ -173,7 +176,7 @@ export default function Storefront({ page, categoryId = '', productId = '', next
   async function signInSocial(provider) {
     setAuthLoading(true)
     try {
-      const result = await authClient.signIn.social({ provider, callbackURL: '/' })
+      const result = await authClient.signIn.social({ provider, callbackURL: getSafeNextPath(nextPath) })
       if (result.error) throw new Error(result.error.message)
     } catch (error) {
       toast.error(error instanceof Error ? error.message : 'সোশ্যাল সাইন ইন করা যায়নি')
@@ -254,7 +257,7 @@ export default function Storefront({ page, categoryId = '', productId = '', next
           <div className="header-actions">
             <button className="icon-action" onClick={() => navigate('/profile')} aria-label="Favorites">♡</button>
             <button className="icon-action cart-action" onClick={() => setNotice(cartCount ? `${cartCount} item${cartCount === 1 ? '' : 's'} in your basket` : 'Your basket is empty')} aria-label="Shopping basket">♧{cartCount > 0 && <span className="cart-count">{cartCount}</span>}</button>
-            {sessionPending ? <span className="account-loading" role="status">লোড হচ্ছে...</span> : user ? <><button className="account-link" onClick={() => navigate('/profile')}>{user.name}</button><button className="signout-button header-signout" onClick={signOut}>সাইন আউট</button></> : <div className="auth-links"><button className="account-link" onClick={() => navigate('/signin')}>সাইন ইন</button><button className="header-signup" onClick={() => navigate('/signup')}>সাইন আপ</button></div>}
+            {user ? <><button className="account-link" onClick={() => navigate('/profile')}>{user.name}</button><button className="signout-button header-signout" onClick={signOut}>সাইন আউট</button></> : <div className="auth-links"><button className="account-link" onClick={() => navigate('/signin')}>সাইন ইন</button><button className="header-signup" onClick={() => navigate('/signup')}>সাইন আপ</button></div>}
           </div>
         </div>
         <nav className="main-nav" aria-label="Main navigation">
@@ -262,7 +265,7 @@ export default function Storefront({ page, categoryId = '', productId = '', next
           <button className={route.page === 'category' ? 'nav-active' : ''} onClick={() => navigate('/category')}>Shop by category <span>⌄</span></button>
           {categories.map((item) => <button key={item.id} className={category === item.id || route.categoryId === item.slug ? 'nav-active' : ''} onClick={() => { setSortOrder('default'); navigate(`/category/${item.slug}`) }}>{item.nameBn}</button>)}
           <span className="nav-spacer" /><button className="offer-link" onClick={() => { setCategory(''); navigate('/') }}>✦ &nbsp;Special offers</button>
-          {!sessionPending && (user ? <><button className="account-mobile" onClick={() => navigate('/profile')}>{user.name}</button><button className="account-mobile account-mobile-signout" onClick={signOut}>সাইন আউট</button></> : <><button className="account-mobile" onClick={() => navigate('/signin')}>সাইন ইন</button><button className="account-mobile" onClick={() => navigate('/signup')}>সাইন আপ</button></>)}
+          {user ? <><button className="account-mobile" onClick={() => navigate('/profile')}>{user.name}</button><button className="account-mobile account-mobile-signout" onClick={signOut}>সাইন আউট</button></> : <><button className="account-mobile" onClick={() => navigate('/signin')}>সাইন ইন</button><button className="account-mobile" onClick={() => navigate('/signup')}>সাইন আপ</button></>}
         </nav>
         <div className="price-ticker" aria-label="আজকের বাজারদর"><div className="ticker-track">{[...products, ...products].map((item, index) => <span key={`${item.id}-${index}`}><b>{item.image}</b> {item.nameBn} <strong>{formatNumber(item.today)} টাকা/{formatUnit(item.unit)}</strong> <i className={getPriceChange(item).className}>{getPriceChange(item).arrow} {percentFormatter.format(item.change.pct)}%</i></span>)}</div></div>
       </header>
@@ -289,7 +292,7 @@ export default function Storefront({ page, categoryId = '', productId = '', next
 
         {route.page === 'product' && <section className="page-section product-page"><div className="breadcrumb"><button onClick={() => navigate('/')}>হোম</button><span> / </span><button onClick={() => navigate(`/category/${product?.category || ''}`)}>{product?.categoryNameBn || 'পণ্য'}</button><span> / </span>{product?.nameBn || ''}</div>{detailsLoading && <p className="empty-state" role="status">পণ্যের তথ্য লোড হচ্ছে...</p>}{detailsError && <div className="empty-state api-error" role="alert"><p>পণ্যের তথ্য লোড করা যায়নি: {detailsError}</p><button className="primary-button" onClick={() => setRefreshKey((value) => value + 1)}>আবার চেষ্টা করুন</button></div>}{product && !detailsLoading && <><div className="detail-card"><div className="detail-image"><span>{product.image}</span><span className="fresh-badge">{product.categoryIcon} {product.categoryNameBn}</span></div><div className="detail-info"><span className="eyebrow">{product.categoryNameBn}</span><h1>{product.nameBn}</h1><p className="detail-description">বিভিন্ন বাজার থেকে সংগৃহীত আজকের হালনাগাদ দাম। বাজারভেদে দামের পার্থক্য থাকতে পারে।</p><div className="detail-price">{formatNumber(product.today)} টাকা<span> / প্রতি {formatUnit(product.unit)}</span></div><span className={`change-badge ${getPriceChange(product).className}`}>{getPriceChange(product).arrow} {percentFormatter.format(product.change.pct)}% গতকালের তুলনায়</span><div className="detail-actions"><button className="primary-button" onClick={() => addToCart(product.id)}>তালিকায় যোগ করুন <span>→</span></button><button className="detail-favorite" onClick={() => toggleFavorite(product.id)}>{favorites.includes(product.id) ? '♥ পছন্দের তালিকায় আছে' : '♡ পছন্দের তালিকায় যোগ করুন'}</button></div><div className="delivery-note">সর্বশেষ হালনাগাদ: আজকের বাজার জরিপ</div></div></div><section className="product-details"><h2>বাজারভিত্তিক আজকের দাম</h2><div className="price-summary"><div><span>সর্বনিম্ন</span><strong>{formatNumber(Math.min(...product.markets.map((market) => market.min)))} টাকা</strong></div><div><span>সর্বোচ্চ</span><strong>{formatNumber(Math.max(...product.markets.map((market) => market.max)))} টাকা</strong></div><div><span>গড় দাম</span><strong>{formatNumber(Math.round(product.markets.reduce((total, market) => total + (market.min + market.max) / 2, 0) / product.markets.length))} টাকা</strong></div></div><div className="market-table"><div className="market-row market-head"><strong>বাজার</strong><strong>বিভাগ</strong><strong>সর্বনিম্ন</strong><strong>সর্বোচ্চ</strong></div>{product.markets.map((market) => <div className="market-row" key={`${market.market}-${market.division}`}><span>{market.market}</span><span>{market.division}</span><span>{formatNumber(market.min)} টাকা</span><span>{formatNumber(market.max)} টাকা</span></div>)}</div></section></>}</section>}
 
-        {(route.page === 'signin' || route.page === 'signup') && <section className="auth-page"><div className="auth-card"><span className="auth-icon">🛒</span><span className="eyebrow">বাজার দর</span><h1>{route.page === 'signup' ? 'নতুন অ্যাকাউন্ট তৈরি করুন' : 'আপনার অ্যাকাউন্টে সাইন ইন করুন'}</h1><p>{route.page === 'signup' ? 'আজকের বাজারদর সহজে জানতে নিবন্ধন করুন।' : 'বাজারদর দেখতে আপনার অ্যাকাউন্টে প্রবেশ করুন।'}</p><form onSubmit={submitAuth}>{route.page === 'signup' && <label>নাম<input name="name" type="text" placeholder="আপনার নাম" autoComplete="name" required /></label>}<label>ইমেইল<input name="email" type="email" placeholder="you@example.com" autoComplete="email" required /></label><label>পাসওয়ার্ড<input name="password" type="password" placeholder="কমপক্ষে ৮ অক্ষর" minLength="8" autoComplete={route.page === 'signup' ? 'new-password' : 'current-password'} required /></label><button className="primary-button auth-submit" disabled={authLoading}>{authLoading ? 'অপেক্ষা করুন...' : route.page === 'signup' ? 'সাইন আপ' : 'সাইন ইন'} <span>→</span></button></form><div className="social-divider"><span>অথবা</span></div><div className="social-buttons"><button type="button" disabled={authLoading} onClick={() => signInSocial('google')}>Google দিয়ে চালিয়ে যান</button><button type="button" disabled={authLoading} onClick={() => signInSocial('github')}>GitHub দিয়ে চালিয়ে যান</button></div><div className="auth-switch">{route.page === 'signup' ? 'আগে থেকেই অ্যাকাউন্ট আছে?' : 'নতুন ব্যবহারকারী?'} <button onClick={() => navigate(route.page === 'signup' ? '/signin' : '/signup')}>{route.page === 'signup' ? 'সাইন ইন' : 'সাইন আপ করুন'}</button></div></div></section>}
+        {(route.page === 'signin' || route.page === 'signup') && <section className="auth-page"><div className="auth-card"><span className="auth-icon">🛒</span><span className="eyebrow">বাজার দর</span><h1>{route.page === 'signup' ? 'নতুন অ্যাকাউন্ট তৈরি করুন' : 'আপনার অ্যাকাউন্টে সাইন ইন করুন'}</h1><p>{route.page === 'signup' ? 'আজকের বাজারদর সহজে জানতে নিবন্ধন করুন।' : 'বাজারদর দেখতে আপনার অ্যাকাউন্টে প্রবেশ করুন।'}</p><form onSubmit={submitAuth}>{route.page === 'signup' && <label>নাম<input name="name" type="text" placeholder="আপনার নাম" autoComplete="name" required /></label>}<label>ইমেইল<input name="email" type="email" placeholder="you@example.com" autoComplete="email" required /></label><label>পাসওয়ার্ড<input name="password" type="password" placeholder="কমপক্ষে ৮ অক্ষর" minLength="8" autoComplete={route.page === 'signup' ? 'new-password' : 'current-password'} required /></label><button className="primary-button auth-submit" disabled={authLoading}>{authLoading ? 'অপেক্ষা করুন...' : route.page === 'signup' ? 'সাইন আপ' : 'সাইন ইন'} <span>→</span></button></form><div className="social-divider"><span>অথবা</span></div><div className="social-buttons"><button type="button" disabled={authLoading} onClick={() => signInSocial('google')}>Google দিয়ে চালিয়ে যান</button></div><div className="auth-switch">{route.page === 'signup' ? 'আগে থেকেই অ্যাকাউন্ট আছে?' : 'নতুন ব্যবহারকারী?'} <button onClick={() => navigate(route.page === 'signup' ? '/signin' : '/signup')}>{route.page === 'signup' ? 'সাইন ইন' : 'সাইন আপ করুন'}</button></div></div></section>}
 
         {route.page === 'profile' && <section className="page-section profile-page"><div className="breadcrumb"><button onClick={() => navigate('/')}>হোম</button><span> / </span> আমার প্রোফাইল</div><div className="profile-content"><div className="profile-heading"><span className="eyebrow">আপনার বাজার দর অ্যাকাউন্ট</span><h1>আমার প্রোফাইল</h1><p>আপনার অ্যাকাউন্টের তথ্য ও পছন্দের পণ্য দেখুন।</p></div><div className="profile-card"><div className="profile-user"><div className="avatar">{(user?.name || 'G').slice(0, 1).toUpperCase()}</div><div><h2>{user?.name || 'ব্যবহারকারী'}</h2><p>{user?.email}</p></div><button className="signout-button" onClick={signOut}>সাইন আউট</button><button className="profile-update-button" onClick={() => navigate('/profile/update')}>তথ্য পরিবর্তন</button></div><div className="profile-stats"><div><span>ঝুড়ির পণ্য</span><strong>{formatNumber(cartCount)}</strong></div><div><span>পছন্দের পণ্য</span><strong>{formatNumber(favorites.length)}</strong></div></div></div><div className="favorites-heading"><h2>আপনার পছন্দের পণ্য</h2><span>{formatNumber(favorites.length)} টি</span></div>{renderProducts(products.filter((item) => favorites.includes(item.id)))}</div></section>}
 

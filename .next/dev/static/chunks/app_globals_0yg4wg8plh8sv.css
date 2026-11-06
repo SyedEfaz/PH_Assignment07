@@ -1774,22 +1774,34 @@ main {
 }
 
 .social-buttons {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 8px;
+  width: 100%;
   display: grid;
 }
 
 .social-buttons button {
-  color: #475047;
-  background: #fff;
-  border: 1px solid #e3e9e3;
-  border-radius: 4px;
-  min-height: 34px;
-  font-size: 9px;
+  color: #fff;
+  background: var(--green);
+  border: 0;
+  border-radius: 5px;
+  width: 100%;
+  min-height: 52px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: background .18s, transform .18s, box-shadow .18s;
+  box-shadow: 0 3px 8px #087f4133;
 }
 
 .social-buttons button:hover {
-  background: #f7faf6;
+  background: var(--green-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 5px 12px #087f4140;
+}
+
+.social-buttons button:focus-visible {
+  outline-offset: 3px;
+  outline: 3px solid #f3a332;
 }
 
 .auth-submit:disabled, .social-buttons button:disabled {

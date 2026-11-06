@@ -7,7 +7,7 @@
 7:I[37457,["$1"],"default"]
 8:"/_next/static/chunks/3zt_16xndew4w.js"
 9:I[22016,["$1","$8"],""]
-10:"/_next/static/chunks/3be1_67rc2ad5.js"
+10:"/_next/static/chunks/1yobabz2h5t51.js"
 11:I[18445,["$1","$10"],"default"]
 12:I[97367,["$1"],"OutletBoundary"]
 13:"$Sreact.suspense"
@@ -15,13 +15,13 @@
 17:I[97367,["$1"],"$16"]
 18:"MetadataBoundary"
 19:I[97367,["$1"],"$18"]
-:HL["/_next/static/chunks/2u2y8aa89mih0.css","style"]
+:HL["/_next/static/chunks/2zbrzhbonmihy.css","style"]
 b:X
 e:X
 e:C
-f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$4","c",{"children":[["$","$L11",null,{"page":"category"}],[["$","script","script-0",{"src":"/_next/static/chunks/3be1_67rc2ad5.js","async":true}]],["$","$L12",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@14"}]}]]}],"p":"$@15","v":null,"s":"$b"}}]]
+f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$4","c",{"children":[["$","$L11",null,{"page":"category"}],[["$","script","script-0",{"src":"/_next/static/chunks/1yobabz2h5t51.js","async":true}]],["$","$L12",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@14"}]}]]}],"p":"$@15","v":null,"s":"$b"}}]]
 c:[["children",{"s":"category","h":96,"d":{"r":["$","$4","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
-0:{"t":{"t":{"s":"","h":84,"d":{"r":["$","$L3",null,{"loading":[["$","main","l",{"className":"loading-page","aria-live":"polite","children":[["$","div",null,{"className":"loading-mark","children":"🛒"}],["$","p",null,{"children":"বাজারদর লোড হচ্ছে..."}],["$","div",null,{"className":"loading-bar"}]]}],[],null],"children":["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2u2y8aa89mih0.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0shva1q8nw5mv.js","async":true}]],["$","html",null,{"lang":"bn","children":["$","body",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}],"notFound":[["$","main",null,{"className":"not-found","children":[["$","span",null,{"children":"404"}],["$","h1",null,{"children":"পৃষ্ঠাটি পাওয়া যায়নি"}],["$","p",null,{"children":"আপনি যে পৃষ্ঠাটি খুঁজছেন সেটি নেই বা সরানো হয়েছে।"}],["$","$L9",null,{"className":"primary-button","href":"/","children":["হোম পেজে ফিরে যান ",["$","span",null,{"children":"→"}]]}]]}],[]]}]}]}]}]]}]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$4","h",{"children":[null,["$","$L17",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L19",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"বাজার দর — আজকের বাজারদর"}],["$","meta","1",{"name":"description","content":"বাংলাদেশের বিভিন্ন বাজারের নিত্যপ্রয়োজনীয় পণ্যের আজকের হালনাগাদ দাম জানুন।"}]]}]}],null]}],null]}],"p":"$@1a","v":null,"s":"$b"}},"a":"$@1b","u":"$@1c","b":"bhMoJvKpn-qoZXCnqUZLR"}
+0:{"t":{"t":{"s":"","h":84,"d":{"r":["$","$L3",null,{"loading":[["$","main","l",{"className":"loading-page","aria-live":"polite","children":[["$","div",null,{"className":"loading-mark","children":"🛒"}],["$","p",null,{"children":"বাজারদর লোড হচ্ছে..."}],["$","div",null,{"className":"loading-bar"}]]}],[],null],"children":["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2zbrzhbonmihy.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0shva1q8nw5mv.js","async":true}]],["$","html",null,{"lang":"bn","children":["$","body",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}],"notFound":[["$","main",null,{"className":"not-found","children":[["$","span",null,{"children":"404"}],["$","h1",null,{"children":"পৃষ্ঠাটি পাওয়া যায়নি"}],["$","p",null,{"children":"আপনি যে পৃষ্ঠাটি খুঁজছেন সেটি নেই বা সরানো হয়েছে।"}],["$","$L9",null,{"className":"primary-button","href":"/","children":["হোম পেজে ফিরে যান ",["$","span",null,{"children":"→"}]]}]]}],[]]}]}]}]}]]}]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$4","h",{"children":[null,["$","$L17",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L19",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"বাজার দর — আজকের বাজারদর"}],["$","meta","1",{"name":"description","content":"বাংলাদেশের বিভিন্ন বাজারের নিত্যপ্রয়োজনীয় পণ্যের আজকের হালনাগাদ দাম জানুন।"}]]}]}],null]}],null]}],"p":"$@1a","v":null,"s":"$b"}},"a":"$@1b","u":"$@1c","b":"6OGm1oXQec7rm7CbKFCzm"}
 14:null
 b:300
 1c:true

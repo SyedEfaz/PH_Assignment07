@@ -1,13 +1,9 @@
 import { betterAuth } from 'better-auth'
-import { drizzleAdapter } from 'better-auth/adapters/drizzle'
-import { db } from './db'
-import * as schema from './auth-schema'
+import { mongodbAdapter } from 'better-auth/adapters/mongodb'
+import { client, db } from './db'
 
 export const auth = betterAuth({
-  database: drizzleAdapter(db, {
-    provider: 'sqlite',
-    schema,
-  }),
+  database: mongodbAdapter(db, { client, transaction: false }),
   secret: process.env.BETTER_AUTH_SECRET,
   baseURL: process.env.BETTER_AUTH_URL || 'http://localhost:3000',
   emailAndPassword: {
