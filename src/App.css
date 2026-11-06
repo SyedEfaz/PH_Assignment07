@@ -9,6 +9,8 @@
 .bazar-brand small { font-size: 8px; letter-spacing: 0; }
 .brand-mark { width: 35px; height: 35px; display: grid; place-items: center; color: #fff; background: var(--green); border-radius: 11px 11px 11px 3px; font: 800 27px/1 var(--heading); letter-spacing: -2px; }
 .brand-green { color: var(--green); }
+
+
 .brand small { display: block; margin-top: 5px; color: #899189; font: 600 7px/1 var(--sans); letter-spacing: 1.15px; }
 .location { display: flex; align-items: center; gap: 9px; flex-shrink: 0; }
 .pin { color: var(--green); font-size: 25px; }
