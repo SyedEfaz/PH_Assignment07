@@ -21,7 +21,7 @@ function HomePage() {
         page: "home"
     }, void 0, false, {
         fileName: "[project]/app/page.jsx",
-        lineNumber: 4,
+        lineNumber: 7,
         columnNumber: 10
     }, this);
 }

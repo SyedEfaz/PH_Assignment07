@@ -310,7 +310,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                             className: "skeleton-image"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Storefront.jsx",
-                            lineNumber: 226,
+                            lineNumber: 259,
                             columnNumber: 220
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -318,34 +318,34 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 226,
+                                    lineNumber: 259,
                                     columnNumber: 286
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 226,
+                                    lineNumber: 259,
                                     columnNumber: 294
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 226,
+                                    lineNumber: 259,
                                     columnNumber: 302
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Storefront.jsx",
-                            lineNumber: 226,
+                            lineNumber: 259,
                             columnNumber: 254
                         }, this)
                     ]
                 }, index, true, {
                     fileName: "[project]/src/components/Storefront.jsx",
-                    lineNumber: 226,
+                    lineNumber: 259,
                     columnNumber: 160
                 }, this))
         }, void 0, false, {
             fileName: "[project]/src/components/Storefront.jsx",
-            lineNumber: 226,
+            lineNumber: 259,
             columnNumber: 33
         }, this);
         if (productsError) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -359,7 +359,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Storefront.jsx",
-                    lineNumber: 227,
+                    lineNumber: 260,
                     columnNumber: 83
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -368,13 +368,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                     children: "আবার চেষ্টা করুন"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Storefront.jsx",
-                    lineNumber: 227,
+                    lineNumber: 260,
                     columnNumber: 126
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Storefront.jsx",
-            lineNumber: 227,
+            lineNumber: 260,
             columnNumber: 31
         }, this);
         if (items.length === 0) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -382,7 +382,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
             children: "কোনো পণ্য পাওয়া যায়নি।"
         }, void 0, false, {
             fileName: "[project]/src/components/Storefront.jsx",
-            lineNumber: 228,
+            lineNumber: 261,
             columnNumber: 36
         }, this);
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -397,7 +397,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                             children: favorites.includes(product.id) ? '♥' : '♡'
                         }, void 0, false, {
                             fileName: "[project]/src/components/Storefront.jsx",
-                            lineNumber: 232,
+                            lineNumber: 265,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -408,12 +408,12 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                 children: product.image
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 234,
+                                lineNumber: 267,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Storefront.jsx",
-                            lineNumber: 233,
+                            lineNumber: 266,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -424,7 +424,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                     children: product.categoryNameBn
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 237,
+                                    lineNumber: 270,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -433,7 +433,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                     children: product.nameBn
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 238,
+                                    lineNumber: 271,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -444,7 +444,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 239,
+                                    lineNumber: 272,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -454,7 +454,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                             children: "আজকের দাম"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 240,
+                                            lineNumber: 273,
                                             columnNumber: 48
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -464,13 +464,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 240,
+                                            lineNumber: 273,
                                             columnNumber: 70
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 240,
+                                    lineNumber: 273,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -486,7 +486,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 241,
+                                            lineNumber: 274,
                                             columnNumber: 45
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -496,30 +496,30 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                             children: cart[product.id] ? `+ ${formatNumber(cart[product.id])}` : '+'
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 241,
+                                            lineNumber: 274,
                                             columnNumber: 200
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 241,
+                                    lineNumber: 274,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Storefront.jsx",
-                            lineNumber: 236,
+                            lineNumber: 269,
                             columnNumber: 11
                         }, this)
                     ]
                 }, product.id, true, {
                     fileName: "[project]/src/components/Storefront.jsx",
-                    lineNumber: 231,
+                    lineNumber: 264,
                     columnNumber: 9
                 }, this))
         }, void 0, false, {
             fileName: "[project]/src/components/Storefront.jsx",
-            lineNumber: 229,
+            lineNumber: 262,
             columnNumber: 12
         }, this);
     }
@@ -542,7 +542,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "🛒"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 252,
+                                        lineNumber: 285,
                                         columnNumber: 105
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -552,19 +552,19 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: banglaDate
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 252,
+                                                lineNumber: 285,
                                                 columnNumber: 157
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 252,
+                                        lineNumber: 285,
                                         columnNumber: 143
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 252,
+                                lineNumber: 285,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -575,7 +575,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "⌖"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 253,
+                                        lineNumber: 286,
                                         columnNumber: 37
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -584,20 +584,20 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "Deliver to"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 253,
+                                                lineNumber: 286,
                                                 columnNumber: 73
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 children: "Dhaka, Bangladesh"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 253,
+                                                lineNumber: 286,
                                                 columnNumber: 98
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 253,
+                                        lineNumber: 286,
                                         columnNumber: 67
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -605,13 +605,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "⌄"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 253,
+                                        lineNumber: 286,
                                         columnNumber: 139
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 253,
+                                lineNumber: 286,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -625,7 +625,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "⌕"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 255,
+                                        lineNumber: 288,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -635,7 +635,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         "aria-label": "Search products"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 255,
+                                        lineNumber: 288,
                                         columnNumber: 27
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -643,13 +643,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "Search"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 255,
+                                        lineNumber: 288,
                                         columnNumber: 171
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 254,
+                                lineNumber: 287,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -662,27 +662,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "♡"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 258,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "icon-action cart-action",
-                                        onClick: ()=>setNotice(cartCount ? `${cartCount} item${cartCount === 1 ? '' : 's'} in your basket` : 'Your basket is empty'),
-                                        "aria-label": "Shopping basket",
-                                        children: [
-                                            "♧",
-                                            cartCount > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "cart-count",
-                                                children: cartCount
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 259,
-                                                columnNumber: 233
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 259,
+                                        lineNumber: 291,
                                         columnNumber: 13
                                     }, this),
                                     user ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -693,7 +673,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: user.name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 260,
+                                                lineNumber: 292,
                                                 columnNumber: 23
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -702,13 +682,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "সাইন আউট"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 260,
+                                                lineNumber: 292,
                                                 columnNumber: 113
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 260,
+                                        lineNumber: 292,
                                         columnNumber: 21
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "auth-links",
@@ -719,7 +699,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "সাইন ইন"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 260,
+                                                lineNumber: 292,
                                                 columnNumber: 232
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -728,25 +708,25 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "সাইন আপ"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 260,
+                                                lineNumber: 292,
                                                 columnNumber: 317
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 260,
+                                        lineNumber: 292,
                                         columnNumber: 204
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 257,
+                                lineNumber: 290,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Storefront.jsx",
-                        lineNumber: 251,
+                        lineNumber: 284,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -762,7 +742,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                 children: "Home"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 264,
+                                lineNumber: 296,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -774,13 +754,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "⌄"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 265,
+                                        lineNumber: 297,
                                         columnNumber: 132
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 265,
+                                lineNumber: 297,
                                 columnNumber: 11
                             }, this),
                             categories.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -792,14 +772,14 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                     children: item.nameBn
                                 }, item.id, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 266,
+                                    lineNumber: 298,
                                     columnNumber: 37
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "nav-spacer"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 267,
+                                lineNumber: 299,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -811,7 +791,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                 children: "✦  Special offers"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 267,
+                                lineNumber: 299,
                                 columnNumber: 42
                             }, this),
                             user ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -822,7 +802,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: user.name
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 268,
+                                        lineNumber: 300,
                                         columnNumber: 21
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -831,13 +811,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "সাইন আউট"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 268,
+                                        lineNumber: 300,
                                         columnNumber: 113
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 268,
+                                lineNumber: 300,
                                 columnNumber: 19
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                                 children: [
@@ -847,7 +827,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "সাইন ইন"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 268,
+                                        lineNumber: 300,
                                         columnNumber: 214
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -856,19 +836,19 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "সাইন আপ"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 268,
+                                        lineNumber: 300,
                                         columnNumber: 301
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 268,
+                                lineNumber: 300,
                                 columnNumber: 212
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Storefront.jsx",
-                        lineNumber: 263,
+                        lineNumber: 295,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -885,7 +865,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                             children: item.image
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 270,
+                                            lineNumber: 302,
                                             columnNumber: 179
                                         }, this),
                                         " ",
@@ -899,7 +879,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 270,
+                                            lineNumber: 302,
                                             columnNumber: 213
                                         }, this),
                                         " ",
@@ -913,29 +893,29 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 270,
+                                            lineNumber: 302,
                                             columnNumber: 286
                                         }, this)
                                     ]
                                 }, `${item.id}-${index}`, true, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 270,
+                                    lineNumber: 302,
                                     columnNumber: 145
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Storefront.jsx",
-                            lineNumber: 270,
+                            lineNumber: 302,
                             columnNumber: 66
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Storefront.jsx",
-                        lineNumber: 270,
+                        lineNumber: 302,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Storefront.jsx",
-                lineNumber: 250,
+                lineNumber: 283,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -955,14 +935,14 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         className: "fresh-dot"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 276,
+                                                        lineNumber: 308,
                                                         columnNumber: 66
                                                     }, this),
                                                     " আজকের বাজারের হালনাগাদ তথ্য"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 276,
+                                                lineNumber: 308,
                                                 columnNumber: 40
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -972,13 +952,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: "জানুন এক নজরে"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 276,
+                                                        lineNumber: 308,
                                                         columnNumber: 154
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 276,
+                                                lineNumber: 308,
                                                 columnNumber: 131
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -988,14 +968,14 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         className: "desktop-break"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 276,
+                                                        lineNumber: 308,
                                                         columnNumber: 227
                                                     }, this),
                                                     " নির্ভরযোগ্য দাম দেখুন সহজেই।"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 276,
+                                                lineNumber: 308,
                                                 columnNumber: 185
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1009,13 +989,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: "→"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 276,
+                                                        lineNumber: 308,
                                                         columnNumber: 438
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 276,
+                                                lineNumber: 308,
                                                 columnNumber: 292
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1025,26 +1005,26 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: "✓ বাজারভিত্তিক দাম"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 276,
+                                                        lineNumber: 308,
                                                         columnNumber: 489
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "✓ প্রতিদিন হালনাগাদ"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 276,
+                                                        lineNumber: 308,
                                                         columnNumber: 520
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 276,
+                                                lineNumber: 308,
                                                 columnNumber: 461
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 276,
+                                        lineNumber: 308,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1055,7 +1035,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 className: "sun-shape"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 277,
+                                                lineNumber: 309,
                                                 columnNumber: 76
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1063,7 +1043,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "🥬"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 277,
+                                                lineNumber: 309,
                                                 columnNumber: 105
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1071,7 +1051,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "🥕"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 277,
+                                                lineNumber: 309,
                                                 columnNumber: 143
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1079,7 +1059,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "🥑"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 277,
+                                                lineNumber: 309,
                                                 columnNumber: 181
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1087,7 +1067,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "🍊"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 277,
+                                                lineNumber: 309,
                                                 columnNumber: 219
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1095,7 +1075,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "🍎"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 277,
+                                                lineNumber: 309,
                                                 columnNumber: 257
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1103,7 +1083,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "🌿"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 277,
+                                                lineNumber: 309,
                                                 columnNumber: 295
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1112,25 +1092,25 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                     children: "FRESH"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                    lineNumber: 277,
+                                                    lineNumber: 309,
                                                     columnNumber: 357
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 277,
+                                                lineNumber: 309,
                                                 columnNumber: 333
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "art-shadow"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 277,
+                                                lineNumber: 309,
                                                 columnNumber: 381
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 277,
+                                        lineNumber: 309,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1140,29 +1120,29 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 className: "selected"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 278,
+                                                lineNumber: 310,
                                                 columnNumber: 40
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 278,
+                                                lineNumber: 310,
                                                 columnNumber: 69
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 278,
+                                                lineNumber: 310,
                                                 columnNumber: 77
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 278,
+                                        lineNumber: 310,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 275,
+                                lineNumber: 307,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1175,7 +1155,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "♧"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 280,
+                                                lineNumber: 312,
                                                 columnNumber: 49
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1184,26 +1164,26 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: "Farm fresh"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 280,
+                                                        lineNumber: 312,
                                                         columnNumber: 94
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
                                                         children: "Picked fresh every day"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 280,
+                                                        lineNumber: 312,
                                                         columnNumber: 121
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 280,
+                                                lineNumber: 312,
                                                 columnNumber: 88
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 280,
+                                        lineNumber: 312,
                                         columnNumber: 44
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1213,7 +1193,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "♧"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 280,
+                                                lineNumber: 312,
                                                 columnNumber: 176
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1222,26 +1202,26 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: "100% natural"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 280,
+                                                        lineNumber: 312,
                                                         columnNumber: 221
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
                                                         children: "No harmful chemicals"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 280,
+                                                        lineNumber: 312,
                                                         columnNumber: 250
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 280,
+                                                lineNumber: 312,
                                                 columnNumber: 215
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 280,
+                                        lineNumber: 312,
                                         columnNumber: 171
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1251,7 +1231,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "♧"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 280,
+                                                lineNumber: 312,
                                                 columnNumber: 303
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1260,26 +1240,26 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: "Fast delivery"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 280,
+                                                        lineNumber: 312,
                                                         columnNumber: 348
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
                                                         children: "At your door in hours"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 280,
+                                                        lineNumber: 312,
                                                         columnNumber: 378
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 280,
+                                                lineNumber: 312,
                                                 columnNumber: 342
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 280,
+                                        lineNumber: 312,
                                         columnNumber: 298
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1289,7 +1269,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "♧"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 280,
+                                                lineNumber: 312,
                                                 columnNumber: 432
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1298,32 +1278,32 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: "Best prices"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 280,
+                                                        lineNumber: 312,
                                                         columnNumber: 477
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
                                                         children: "Fresh deals every day"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 280,
+                                                        lineNumber: 312,
                                                         columnNumber: 505
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 280,
+                                                lineNumber: 312,
                                                 columnNumber: 471
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 280,
+                                        lineNumber: 312,
                                         columnNumber: 427
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 280,
+                                lineNumber: 312,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1338,39 +1318,39 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                     children: "MARKET MOVEMENT"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                    lineNumber: 281,
+                                                    lineNumber: 313,
                                                     columnNumber: 84
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                     children: "আজ দাম বেড়েছে ▲"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                    lineNumber: 281,
+                                                    lineNumber: 313,
                                                     columnNumber: 132
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "যে পণ্যগুলোর দাম আজ সবচেয়ে বেশি বেড়েছে"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                    lineNumber: 281,
+                                                    lineNumber: 313,
                                                     columnNumber: 157
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 281,
+                                            lineNumber: 313,
                                             columnNumber: 79
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 281,
+                                        lineNumber: 313,
                                         columnNumber: 46
                                     }, this),
                                     renderProducts(risingProducts)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 281,
+                                lineNumber: 313,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1385,39 +1365,39 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                     children: "MARKET MOVEMENT"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                    lineNumber: 282,
+                                                    lineNumber: 314,
                                                     columnNumber: 84
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                     children: "আজ দাম কমেছে ▼"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                    lineNumber: 282,
+                                                    lineNumber: 314,
                                                     columnNumber: 132
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "যে পণ্যগুলোর দাম আজ কমেছে"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                    lineNumber: 282,
+                                                    lineNumber: 314,
                                                     columnNumber: 155
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 282,
+                                            lineNumber: 314,
                                             columnNumber: 79
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 282,
+                                        lineNumber: 314,
                                         columnNumber: 46
                                     }, this),
                                     renderProducts(fallingProducts)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 282,
+                                lineNumber: 314,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1434,27 +1414,27 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: "আজকের বাজারদর"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 284,
+                                                        lineNumber: 316,
                                                         columnNumber: 51
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                         children: "সব পণ্য"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 284,
+                                                        lineNumber: 316,
                                                         columnNumber: 97
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "আজকের বাজারের পণ্যের হালনাগাদ দাম।"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 284,
+                                                        lineNumber: 316,
                                                         columnNumber: 113
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 284,
+                                                lineNumber: 316,
                                                 columnNumber: 46
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1466,19 +1446,19 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: "→"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 284,
+                                                        lineNumber: 316,
                                                         columnNumber: 241
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 284,
+                                                lineNumber: 316,
                                                 columnNumber: 160
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 284,
+                                        lineNumber: 316,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1490,7 +1470,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "সব পণ্য"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 285,
+                                                lineNumber: 317,
                                                 columnNumber: 44
                                             }, this),
                                             categories.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1503,20 +1483,20 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                     ]
                                                 }, item.id, true, {
                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                    lineNumber: 285,
+                                                    lineNumber: 317,
                                                     columnNumber: 168
                                                 }, this))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 285,
+                                        lineNumber: 317,
                                         columnNumber: 13
                                     }, this),
                                     renderProducts(visibleProducts)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 283,
+                                lineNumber: 315,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1529,27 +1509,27 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "A LITTLE FRESHNESS IN YOUR INBOX"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 288,
+                                                lineNumber: 320,
                                                 columnNumber: 48
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                 children: "Get the freshest deals first"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 288,
+                                                lineNumber: 320,
                                                 columnNumber: 113
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: "Sign up for our newsletter and enjoy 10% off your first order."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 288,
+                                                lineNumber: 320,
                                                 columnNumber: 150
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 288,
+                                        lineNumber: 320,
                                         columnNumber: 43
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1566,7 +1546,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 "aria-label": "Email address"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 288,
+                                                lineNumber: 320,
                                                 columnNumber: 347
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1577,31 +1557,31 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: "→"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 288,
+                                                        lineNumber: 320,
                                                         columnNumber: 483
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 288,
+                                                lineNumber: 320,
                                                 columnNumber: 438
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 288,
+                                        lineNumber: 320,
                                         columnNumber: 225
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 288,
+                                lineNumber: 320,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Storefront.jsx",
-                        lineNumber: 274,
+                        lineNumber: 306,
                         columnNumber: 35
                     }, this),
                     route.page === 'category' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1615,14 +1595,14 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "হোম"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 291,
+                                        lineNumber: 323,
                                         columnNumber: 115
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: " / "
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 291,
+                                        lineNumber: 323,
                                         columnNumber: 165
                                     }, this),
                                     " ",
@@ -1630,7 +1610,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 291,
+                                lineNumber: 323,
                                 columnNumber: 87
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1642,32 +1622,32 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                             children: "বাজারদরের ক্যাটাগরি"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 291,
+                                            lineNumber: 323,
                                             columnNumber: 336
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                             children: route.categoryId ? categories.find((item)=>item.slug === route.categoryId)?.nameBn || 'ক্যাটাগরি পাওয়া যায়নি' : 'সব ক্যাটাগরি'
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 291,
+                                            lineNumber: 323,
                                             columnNumber: 388
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "বিভিন্ন পণ্যের আজকের বাজারদর দেখুন।"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 291,
+                                            lineNumber: 323,
                                             columnNumber: 529
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 291,
+                                    lineNumber: 323,
                                     columnNumber: 331
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 291,
+                                lineNumber: 323,
                                 columnNumber: 303
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1679,7 +1659,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "সব পণ্য"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 291,
+                                        lineNumber: 323,
                                         columnNumber: 614
                                     }, this),
                                     categories.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1695,13 +1675,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                             ]
                                         }, item.id, true, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 291,
+                                            lineNumber: 323,
                                             columnNumber: 752
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 291,
+                                lineNumber: 323,
                                 columnNumber: 583
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1712,7 +1692,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "সাজান:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 291,
+                                        lineNumber: 323,
                                         columnNumber: 990
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1725,7 +1705,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "ডিফল্ট"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 291,
+                                                lineNumber: 323,
                                                 columnNumber: 1135
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1733,7 +1713,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "দাম: কম থেকে বেশি"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 291,
+                                                lineNumber: 323,
                                                 columnNumber: 1174
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1741,19 +1721,19 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "দাম: বেশি থেকে কম"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 291,
+                                                lineNumber: 323,
                                                 columnNumber: 1226
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 291,
+                                        lineNumber: 323,
                                         columnNumber: 1035
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 291,
+                                lineNumber: 323,
                                 columnNumber: 959
                             }, this),
                             route.categoryId && !productsLoading && !productsError && visibleProducts.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1763,14 +1743,14 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "🔎"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 291,
+                                        lineNumber: 323,
                                         columnNumber: 1416
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         children: "এই ক্যাটাগরিতে কোনো পণ্য নেই"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 291,
+                                        lineNumber: 323,
                                         columnNumber: 1431
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1779,19 +1759,19 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "হোম পেজে ফিরে যান"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 291,
+                                        lineNumber: 323,
                                         columnNumber: 1468
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 291,
+                                lineNumber: 323,
                                 columnNumber: 1384
                             }, this) : renderProducts(visibleProducts)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Storefront.jsx",
-                        lineNumber: 291,
+                        lineNumber: 323,
                         columnNumber: 39
                     }, this),
                     route.page === 'product' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1805,14 +1785,14 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "হোম"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 293,
+                                        lineNumber: 325,
                                         columnNumber: 113
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: " / "
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 293,
+                                        lineNumber: 325,
                                         columnNumber: 163
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1820,21 +1800,21 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: product?.categoryNameBn || 'পণ্য'
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 293,
+                                        lineNumber: 325,
                                         columnNumber: 179
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: " / "
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 293,
+                                        lineNumber: 325,
                                         columnNumber: 296
                                     }, this),
                                     product?.nameBn || ''
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 293,
+                                lineNumber: 325,
                                 columnNumber: 85
                             }, this),
                             detailsLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1843,7 +1823,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                 children: "পণ্যের তথ্য লোড হচ্ছে..."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 293,
+                                lineNumber: 325,
                                 columnNumber: 360
                             }, this),
                             detailsError && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1857,7 +1837,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 293,
+                                        lineNumber: 325,
                                         columnNumber: 499
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1866,13 +1846,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "আবার চেষ্টা করুন"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 293,
+                                        lineNumber: 325,
                                         columnNumber: 548
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 293,
+                                lineNumber: 325,
                                 columnNumber: 447
                             }, this),
                             product && !detailsLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -1887,7 +1867,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: product.image
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 293,
+                                                        lineNumber: 325,
                                                         columnNumber: 759
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1899,13 +1879,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 293,
+                                                        lineNumber: 325,
                                                         columnNumber: 787
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 293,
+                                                lineNumber: 325,
                                                 columnNumber: 729
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1916,14 +1896,14 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: product.categoryNameBn
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 293,
+                                                        lineNumber: 325,
                                                         columnNumber: 906
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                         children: product.nameBn
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 293,
+                                                        lineNumber: 325,
                                                         columnNumber: 963
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1931,7 +1911,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: "বিভিন্ন বাজার থেকে সংগৃহীত আজকের হালনাগাদ দাম। বাজারভেদে দামের পার্থক্য থাকতে পারে।"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 293,
+                                                        lineNumber: 325,
                                                         columnNumber: 988
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1946,13 +1926,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 325,
                                                                 columnNumber: 1173
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 293,
+                                                        lineNumber: 325,
                                                         columnNumber: 1109
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1965,7 +1945,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 293,
+                                                        lineNumber: 325,
                                                         columnNumber: 1227
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1980,13 +1960,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                         children: "→"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                                        lineNumber: 293,
+                                                                        lineNumber: 325,
                                                                         columnNumber: 1521
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 325,
                                                                 columnNumber: 1430
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1995,13 +1975,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                 children: favorites.includes(product.id) ? '♥ পছন্দের তালিকায় আছে' : '♡ পছন্দের তালিকায় যোগ করুন'
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 325,
                                                                 columnNumber: 1544
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 293,
+                                                        lineNumber: 325,
                                                         columnNumber: 1398
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2009,19 +1989,19 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: "সর্বশেষ হালনাগাদ: আজকের বাজার জরিপ"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 293,
+                                                        lineNumber: 325,
                                                         columnNumber: 1729
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 293,
+                                                lineNumber: 325,
                                                 columnNumber: 877
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 293,
+                                        lineNumber: 325,
                                         columnNumber: 700
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2031,7 +2011,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "বাজারভিত্তিক আজকের দাম"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 293,
+                                                lineNumber: 325,
                                                 columnNumber: 1849
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2043,7 +2023,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                 children: "সর্বনিম্ন"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 325,
                                                                 columnNumber: 1916
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -2053,13 +2033,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 325,
                                                                 columnNumber: 1938
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 293,
+                                                        lineNumber: 325,
                                                         columnNumber: 1911
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2068,7 +2048,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                 children: "সর্বোচ্চ"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 325,
                                                                 columnNumber: 2043
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -2078,13 +2058,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 325,
                                                                 columnNumber: 2064
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 293,
+                                                        lineNumber: 325,
                                                         columnNumber: 2038
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2093,7 +2073,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                 children: "গড় দাম"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 325,
                                                                 columnNumber: 2169
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -2103,19 +2083,19 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 325,
                                                                 columnNumber: 2189
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 293,
+                                                        lineNumber: 325,
                                                         columnNumber: 2164
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 293,
+                                                lineNumber: 325,
                                                 columnNumber: 1880
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2128,34 +2108,34 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                 children: "বাজার"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 325,
                                                                 columnNumber: 2429
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 children: "বিভাগ"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 325,
                                                                 columnNumber: 2451
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 children: "সর্বনিম্ন"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 325,
                                                                 columnNumber: 2473
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 children: "সর্বোচ্চ"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 325,
                                                                 columnNumber: 2499
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 293,
+                                                        lineNumber: 325,
                                                         columnNumber: 2389
                                                     }, this),
                                                     product.markets.map((market)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2165,14 +2145,14 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                     children: market.market
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                                    lineNumber: 293,
+                                                                    lineNumber: 325,
                                                                     columnNumber: 2635
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     children: market.division
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                                    lineNumber: 293,
+                                                                    lineNumber: 325,
                                                                     columnNumber: 2663
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2182,7 +2162,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                                    lineNumber: 293,
+                                                                    lineNumber: 325,
                                                                     columnNumber: 2693
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2192,37 +2172,37 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                                    lineNumber: 293,
+                                                                    lineNumber: 325,
                                                                     columnNumber: 2737
                                                                 }, this)
                                                             ]
                                                         }, `${market.market}-${market.division}`, true, {
                                                             fileName: "[project]/src/components/Storefront.jsx",
-                                                            lineNumber: 293,
+                                                            lineNumber: 325,
                                                             columnNumber: 2563
                                                         }, this))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 293,
+                                                lineNumber: 325,
                                                 columnNumber: 2359
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 293,
+                                        lineNumber: 325,
                                         columnNumber: 1812
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 293,
+                                lineNumber: 325,
                                 columnNumber: 698
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Storefront.jsx",
-                        lineNumber: 293,
+                        lineNumber: 325,
                         columnNumber: 38
                     }, this),
                     (route.page === 'signin' || route.page === 'signup') && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2235,7 +2215,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                     children: "🛒"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 295,
+                                    lineNumber: 327,
                                     columnNumber: 124
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2243,21 +2223,21 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                     children: "বাজার দর"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 295,
+                                    lineNumber: 327,
                                     columnNumber: 161
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                     children: route.page === 'signup' ? 'নতুন অ্যাকাউন্ট তৈরি করুন' : 'আপনার অ্যাকাউন্টে সাইন ইন করুন'
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 295,
+                                    lineNumber: 327,
                                     columnNumber: 202
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: route.page === 'signup' ? 'আজকের বাজারদর সহজে জানতে নিবন্ধন করুন।' : 'বাজারদর দেখতে আপনার অ্যাকাউন্টে প্রবেশ করুন।'
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 295,
+                                    lineNumber: 327,
                                     columnNumber: 301
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -2274,13 +2254,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                    lineNumber: 295,
+                                                    lineNumber: 327,
                                                     columnNumber: 491
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 295,
+                                            lineNumber: 327,
                                             columnNumber: 481
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2294,13 +2274,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                    lineNumber: 295,
+                                                    lineNumber: 327,
                                                     columnNumber: 598
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 295,
+                                            lineNumber: 327,
                                             columnNumber: 586
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2315,13 +2295,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                    lineNumber: 295,
+                                                    lineNumber: 327,
                                                     columnNumber: 718
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 295,
+                                            lineNumber: 327,
                                             columnNumber: 701
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2334,19 +2314,19 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                     children: "→"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                    lineNumber: 295,
+                                                    lineNumber: 327,
                                                     columnNumber: 1051
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 295,
+                                            lineNumber: 327,
                                             columnNumber: 897
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 295,
+                                    lineNumber: 327,
                                     columnNumber: 425
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2355,12 +2335,12 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "অথবা"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 295,
+                                        lineNumber: 327,
                                         columnNumber: 1113
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 295,
+                                    lineNumber: 327,
                                     columnNumber: 1081
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2372,12 +2352,12 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "Google দিয়ে চালিয়ে যান"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 295,
+                                        lineNumber: 327,
                                         columnNumber: 1168
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 295,
+                                    lineNumber: 327,
                                     columnNumber: 1136
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2390,24 +2370,24 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                             children: route.page === 'signup' ? 'সাইন ইন' : 'সাইন আপ করুন'
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 295,
+                                            lineNumber: 327,
                                             columnNumber: 1398
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 295,
+                                    lineNumber: 327,
                                     columnNumber: 1291
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Storefront.jsx",
-                            lineNumber: 295,
+                            lineNumber: 327,
                             columnNumber: 97
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Storefront.jsx",
-                        lineNumber: 295,
+                        lineNumber: 327,
                         columnNumber: 66
                     }, this),
                     route.page === 'profile' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2421,21 +2401,21 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "হোম"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 297,
+                                        lineNumber: 329,
                                         columnNumber: 113
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: " / "
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 297,
+                                        lineNumber: 329,
                                         columnNumber: 163
                                     }, this),
                                     " আমার প্রোফাইল"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 297,
+                                lineNumber: 329,
                                 columnNumber: 85
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2449,27 +2429,27 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "আপনার বাজার দর অ্যাকাউন্ট"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 297,
+                                                lineNumber: 329,
                                                 columnNumber: 265
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                 children: "আমার প্রোফাইল"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 297,
+                                                lineNumber: 329,
                                                 columnNumber: 323
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: "আপনার অ্যাকাউন্টের তথ্য ও পছন্দের পণ্য দেখুন।"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 297,
+                                                lineNumber: 329,
                                                 columnNumber: 345
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 297,
+                                        lineNumber: 329,
                                         columnNumber: 232
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2483,7 +2463,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: (user?.name || 'G').slice(0, 1).toUpperCase()
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 297,
+                                                        lineNumber: 329,
                                                         columnNumber: 463
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2492,20 +2472,20 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                 children: user?.name || 'ব্যবহারকারী'
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 297,
+                                                                lineNumber: 329,
                                                                 columnNumber: 545
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 children: user?.email
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 297,
+                                                                lineNumber: 329,
                                                                 columnNumber: 583
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 297,
+                                                        lineNumber: 329,
                                                         columnNumber: 540
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2514,7 +2494,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: "সাইন আউট"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 297,
+                                                        lineNumber: 329,
                                                         columnNumber: 609
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2523,13 +2503,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                         children: "তথ্য পরিবর্তন"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 297,
+                                                        lineNumber: 329,
                                                         columnNumber: 679
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 297,
+                                                lineNumber: 329,
                                                 columnNumber: 433
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2541,20 +2521,20 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                 children: "ঝুড়ির পণ্য"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 297,
+                                                                lineNumber: 329,
                                                                 columnNumber: 829
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 children: formatNumber(cartCount)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 297,
+                                                                lineNumber: 329,
                                                                 columnNumber: 853
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 297,
+                                                        lineNumber: 329,
                                                         columnNumber: 824
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2563,32 +2543,32 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                                 children: "পছন্দের পণ্য"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 297,
+                                                                lineNumber: 329,
                                                                 columnNumber: 906
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                 children: formatNumber(favorites.length)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                                lineNumber: 297,
+                                                                lineNumber: 329,
                                                                 columnNumber: 931
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Storefront.jsx",
-                                                        lineNumber: 297,
+                                                        lineNumber: 329,
                                                         columnNumber: 901
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 297,
+                                                lineNumber: 329,
                                                 columnNumber: 793
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 297,
+                                        lineNumber: 329,
                                         columnNumber: 403
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2598,7 +2578,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "আপনার পছন্দের পণ্য"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 297,
+                                                lineNumber: 329,
                                                 columnNumber: 1033
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2608,26 +2588,26 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 297,
+                                                lineNumber: 329,
                                                 columnNumber: 1060
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 297,
+                                        lineNumber: 329,
                                         columnNumber: 998
                                     }, this),
                                     renderProducts(products.filter((item)=>favorites.includes(item.id)))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 297,
+                                lineNumber: 329,
                                 columnNumber: 199
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Storefront.jsx",
-                        lineNumber: 297,
+                        lineNumber: 329,
                         columnNumber: 38
                     }, this),
                     route.page === 'update-profile' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2640,7 +2620,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                     children: "👤"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 299,
+                                    lineNumber: 331,
                                     columnNumber: 103
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2648,21 +2628,21 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                     children: "প্রোফাইল সেটিংস"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 299,
+                                    lineNumber: 331,
                                     columnNumber: 140
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                     children: "ব্যক্তিগত তথ্য পরিবর্তন"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 299,
+                                    lineNumber: 331,
                                     columnNumber: 188
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "আপনার নাম হালনাগাদ করুন।"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 299,
+                                    lineNumber: 331,
                                     columnNumber: 220
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -2679,13 +2659,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                    lineNumber: 299,
+                                                    lineNumber: 331,
                                                     columnNumber: 292
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 299,
+                                            lineNumber: 331,
                                             columnNumber: 282
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2696,19 +2676,19 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                     children: "→"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Storefront.jsx",
-                                                    lineNumber: 299,
+                                                    lineNumber: 331,
                                                     columnNumber: 457
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Storefront.jsx",
-                                            lineNumber: 299,
+                                            lineNumber: 331,
                                             columnNumber: 394
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 299,
+                                    lineNumber: 331,
                                     columnNumber: 251
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2718,23 +2698,23 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "প্রোফাইলে ফিরে যান"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 299,
+                                        lineNumber: 331,
                                         columnNumber: 516
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Storefront.jsx",
-                                    lineNumber: 299,
+                                    lineNumber: 331,
                                     columnNumber: 487
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Storefront.jsx",
-                            lineNumber: 299,
+                            lineNumber: 331,
                             columnNumber: 76
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Storefront.jsx",
-                        lineNumber: 299,
+                        lineNumber: 331,
                         columnNumber: 45
                     }, this),
                     route.page === 'not-found' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2744,14 +2724,14 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                 children: "404"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 301,
+                                lineNumber: 333,
                                 columnNumber: 84
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 children: "পৃষ্ঠাটি পাওয়া যায়নি"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 301,
+                                lineNumber: 333,
                                 columnNumber: 100
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2760,19 +2740,19 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                 children: "হোম পেজে ফিরে যান"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 301,
+                                lineNumber: 333,
                                 columnNumber: 131
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Storefront.jsx",
-                        lineNumber: 301,
+                        lineNumber: 333,
                         columnNumber: 40
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Storefront.jsx",
-                lineNumber: 273,
+                lineNumber: 305,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -2789,7 +2769,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "🛒"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 304,
+                                        lineNumber: 336,
                                         columnNumber: 98
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2799,26 +2779,26 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                                 children: "আজকের বাজার, আপনার হাতেই"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Storefront.jsx",
-                                                lineNumber: 304,
+                                                lineNumber: 336,
                                                 columnNumber: 150
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 304,
+                                        lineNumber: 336,
                                         columnNumber: 136
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "বাংলাদেশের বিভিন্ন বাজারের নিত্যপ্রয়োজনীয় পণ্যের দাম এক জায়গায় দেখুন।"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 304,
+                                        lineNumber: 336,
                                         columnNumber: 196
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 304,
+                                lineNumber: 336,
                                 columnNumber: 68
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2827,7 +2807,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "ক্যাটাগরি"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 304,
+                                        lineNumber: 336,
                                         columnNumber: 287
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2835,7 +2815,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "হোম"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 304,
+                                        lineNumber: 336,
                                         columnNumber: 305
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2843,7 +2823,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "সব ক্যাটাগরি"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 304,
+                                        lineNumber: 336,
                                         columnNumber: 355
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2853,13 +2833,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "পণ্যের দাম"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 304,
+                                        lineNumber: 336,
                                         columnNumber: 422
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 304,
+                                lineNumber: 336,
                                 columnNumber: 282
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2868,7 +2848,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "আপনার অ্যাকাউন্ট"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 304,
+                                        lineNumber: 336,
                                         columnNumber: 543
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2876,7 +2856,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "আমার প্রোফাইল"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 304,
+                                        lineNumber: 336,
                                         columnNumber: 568
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2884,7 +2864,7 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "সাইন ইন"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 304,
+                                        lineNumber: 336,
                                         columnNumber: 635
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2892,13 +2872,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "সাইন আপ"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 304,
+                                        lineNumber: 336,
                                         columnNumber: 695
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 304,
+                                lineNumber: 336,
                                 columnNumber: 538
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2907,14 +2887,14 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         children: "বাজারদর সম্পর্কে"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 304,
+                                        lineNumber: 336,
                                         columnNumber: 766
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "বিভিন্ন এলাকার বাজার থেকে সংগৃহীত সাম্প্রতিক দাম।"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 304,
+                                        lineNumber: 336,
                                         columnNumber: 791
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2925,19 +2905,19 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Storefront.jsx",
-                                        lineNumber: 304,
+                                        lineNumber: 336,
                                         columnNumber: 847
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 304,
+                                lineNumber: 336,
                                 columnNumber: 761
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Storefront.jsx",
-                        lineNumber: 304,
+                        lineNumber: 336,
                         columnNumber: 39
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2947,26 +2927,26 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                                 children: "© ২০২৫ বাজার দর। সর্বস্বত্ব সংরক্ষিত।"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 304,
+                                lineNumber: 336,
                                 columnNumber: 960
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: "বাংলাদেশের বাজারদর"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Storefront.jsx",
-                                lineNumber: 304,
+                                lineNumber: 336,
                                 columnNumber: 1010
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Storefront.jsx",
-                        lineNumber: 304,
+                        lineNumber: 336,
                         columnNumber: 929
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Storefront.jsx",
-                lineNumber: 304,
+                lineNumber: 336,
                 columnNumber: 7
             }, this),
             notice && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2975,13 +2955,13 @@ function Storefront({ page, categoryId = '', productId = '', nextPath = '/', red
                 children: notice
             }, void 0, false, {
                 fileName: "[project]/src/components/Storefront.jsx",
-                lineNumber: 305,
+                lineNumber: 337,
                 columnNumber: 18
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Storefront.jsx",
-        lineNumber: 249,
+        lineNumber: 282,
         columnNumber: 5
     }, this);
 }
