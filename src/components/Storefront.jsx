@@ -8,11 +8,20 @@ import toast from 'react-hot-toast'
 const API_BASE = 'https://openapi.programming-hero.com/api/bazardor'
 const EMPTY_PRODUCTS = []
 const numberFormatter = new Intl.NumberFormat('bn-BD')
+
+
+
+
 const percentFormatter = new Intl.NumberFormat('bn-BD', { maximumFractionDigits: 1 })
 const banglaDate = new Intl.DateTimeFormat('bn-BD', { dateStyle: 'long' }).format(new Date())
 
 async function fetchApi(path, signal) {
   const response = await fetch(`${API_BASE}${path}`, { signal })
+
+
+
+
+
   if (!response.ok) throw new Error(`Request failed (${response.status})`)
   return response.json()
 }
@@ -39,19 +48,43 @@ function getSafeNextPath(path) {
 export default function Storefront({ page, categoryId = '', productId = '', nextPath = '/', redirectNotice = false }) {
   const router = useRouter()
   const route = { page, categoryId, id: productId }
+
+
+
+
+
   const [search, setSearch] = useState('')
   const [category, setCategory] = useState('')
+
+
+
+
   const [productsResult, setProductsResult] = useState({ key: '', products: [], error: '' })
   const [categories, setCategories] = useState([])
   const [categoriesError, setCategoriesError] = useState('')
   const [refreshKey, setRefreshKey] = useState(0)
+
+
+
+
+
+
   const [detailsResult, setDetailsResult] = useState({ key: '', product: null, error: '' })
   const [sortOrder, setSortOrder] = useState('default')
   const [cart, setCart] = useState({})
   const [favorites, setFavorites] = useState([])
+
+
+
+
+
+
   const [storageLoaded, setStorageLoaded] = useState(false)
   const [notice, setNotice] = useState('')
   const [authLoading, setAuthLoading] = useState(false)
+
+
+  
   const { data: session } = authClient.useSession()
   const user = session?.user
 
@@ -256,7 +289,6 @@ export default function Storefront({ page, categoryId = '', productId = '', next
           </form>
           <div className="header-actions">
             <button className="icon-action" onClick={() => navigate('/profile')} aria-label="Favorites">♡</button>
-            <button className="icon-action cart-action" onClick={() => setNotice(cartCount ? `${cartCount} item${cartCount === 1 ? '' : 's'} in your basket` : 'Your basket is empty')} aria-label="Shopping basket">♧{cartCount > 0 && <span className="cart-count">{cartCount}</span>}</button>
             {user ? <><button className="account-link" onClick={() => navigate('/profile')}>{user.name}</button><button className="signout-button header-signout" onClick={signOut}>সাইন আউট</button></> : <div className="auth-links"><button className="account-link" onClick={() => navigate('/signin')}>সাইন ইন</button><button className="header-signup" onClick={() => navigate('/signup')}>সাইন আপ</button></div>}
           </div>
         </div>
